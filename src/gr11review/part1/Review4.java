@@ -32,7 +32,7 @@ public class Review4{
             dblSubTotal += Double.parseDouble(key.readLine());
         }
 
-        // outputs necessary information based on subtotal
+        // Outputs necessary information based on subtotal
         System.out.println("Subtotal: $" + df.format(dblSubTotal));
         System.out.println("Tax: $" + df.format(dblSubTotal * 0.13));
         System.out.println("Total: $" + df.format(dblSubTotal * 1.13));
