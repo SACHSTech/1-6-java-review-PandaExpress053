@@ -18,19 +18,22 @@ public class Review8{
         // Initialize
         int intSlot1, intSlot2, intSlot3;
         int intJackpots = 0;
-
+        
         for (int i = 0; i < 1000; i++){
+            // Randomizes slots
             intSlot1 = (int)(Math.random() * 8.0);
             intSlot2 = (int)(Math.random() * 8.0);
             intSlot3 = (int)(Math.random() * 8.0);
 
+            // Outputs slots
             System.out.println(intSlot1 + " " + intSlot2 + " " + intSlot3);
+
+            // Calculates if jackpot win
             if (intSlot1 == intSlot2 && intSlot2 == intSlot3 && intSlot1 == intSlot3){
                 intJackpots++;
             }
         }
+        // Outputs jackpot wins
         System.out.println(intJackpots);
-
-
     }
 }
