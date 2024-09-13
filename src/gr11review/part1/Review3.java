@@ -25,6 +25,5 @@ public class Review3{
         for (int i = 29; i > 1; i--){
             System.out.println(i);
         }
-        
     }
 }

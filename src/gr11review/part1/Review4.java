@@ -27,7 +27,7 @@ public class Review4{
         intNumItems = Integer.parseInt(key.readLine());
 
         for (int i = 0; i < intNumItems; i++){
-            System.out.print("Enter the price for item " + (i+1) + ": ");
+            System.out.print("Enter the price for item " + (i + 1) + ": ");
             // Calculates subtotal
             dblSubTotal += Double.parseDouble(key.readLine());
         }
