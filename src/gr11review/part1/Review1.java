@@ -4,7 +4,7 @@ import java.util.*;
 import java.lang.Math.*;
 
 /**
-* A simple program to compute days and months input to total days in the year
+* A program to compute days and months input to total days in the year
 * @author: E. Fung
 *
 */
