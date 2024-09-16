@@ -10,6 +10,14 @@ import java.lang.Math.*;
 *
 */
 public class Review3{
+
+    /**
+     * Main method to execute the program logic
+     * 
+     * @param args Command-line arguments (not used)
+     * @throws IOException input exceptions if error occurs
+     */
+
     public static void main(String[] args) throws IOException{
 
         // Outputting odd numbers between 20 and 100
@@ -19,6 +27,7 @@ public class Review3{
             }
         }
         
+        // Prints line to split outpus
         System.out.println("");
 
         // Outputting 29 to 2

@@ -11,6 +11,14 @@ import java.lang.Math.*;
 *
 */
 public class Review5{
+
+    /**
+     * Main method to execute the program logic
+     * 
+     * @param args Command-line arguments (not used)
+     * @throws IOException input exceptions if error occurs
+     */
+
     public static void main(String[] args) throws IOException{
 
         // Initialize
